@@ -5344,7 +5344,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 74.93) (xy 228.6 74.93)
+			(xy 227.33 74.93) (xy 237.49 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5384,7 +5384,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 74.93) (xy 243.84 74.93)
+			(xy 245.11 74.93) (xy 252.73 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6123,7 +6123,7 @@
 		(uuid "6e176739-6d64-4bf2-aea8-5afebca5a1fe")
 	)
 	(label "VCC_RF"
-		(at 243.84 74.93 180)
+		(at 252.73 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6171,6 +6171,16 @@
 			(justify right bottom)
 		)
 		(uuid "86a62523-3fb5-4d9c-91b4-0519f0f214ea")
+	)
+	(label "RF_"
+		(at 233.68 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8755f474-8aa4-4e11-9bb1-24f8394e5c76")
 	)
 	(label "GPS_EXINTERUPT"
 		(at 113.03 110.49 0)
@@ -6762,7 +6772,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,10Ω")
-		(at 232.41 74.93 90)
+		(at 241.3 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6770,7 +6780,7 @@
 		(dnp no)
 		(uuid "10319c49-3401-4d47-960b-9c32b41a376e")
 		(property "Reference" "R415"
-			(at 232.4099 72.39 0)
+			(at 241.2999 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +6789,7 @@
 			)
 		)
 		(property "Value" "10Ω"
-			(at 232.41 74.93 90)
+			(at 241.3 74.93 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6788,7 +6798,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 232.41 76.708 90)
+			(at 241.3 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +6807,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.pdf"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +6816,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 10Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +6825,7 @@
 			)
 		)
 		(property "LCSC" "C25077"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +6834,7 @@
 			)
 		)
 		(property "Stock" "2241750"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6833,7 +6843,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6842,7 +6852,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,7 +6861,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +6870,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +6879,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +6888,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +6897,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +6906,7 @@
 			)
 		)
 		(property "Part" "0402WGF100JTCE"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +6915,7 @@
 			)
 		)
 		(property "Resistance" "10Ω"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,7 +6924,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +6933,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +6942,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +6951,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +6960,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +6969,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 232.41 74.93 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
