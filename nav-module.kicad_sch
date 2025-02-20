@@ -5,12 +5,12 @@
 	(uuid "090a8e41-87a8-4fb1-998b-60a2c0dc4cee")
 	(paper "A4")
 	(title_block
-		(title "ModuCard base module")
+		(title "ModuCard nav module")
 		(date "2025-02-18")
 		(rev "1.0.0")
 		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
-		(comment 2 "Project author: <author>")
+		(comment 2 "Project author: Patryk Dudziński")
 	)
 	(lib_symbols)
 	(bus_alias "CAN"
@@ -27,6 +27,16 @@
 	(no_connect
 		(at 81.28 96.52)
 		(uuid "b3c7e6b3-59d6-467d-a4c3-b7bb1d57cd13")
+	)
+	(bus
+		(pts
+			(xy 148.59 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b16f64-094f-451d-a699-24b08d4c5fc2")
 	)
 	(bus
 		(pts
@@ -58,6 +68,46 @@
 		)
 		(uuid "0c1d7469-42a8-449b-8405-80a700e5dd75")
 	)
+	(wire
+		(pts
+			(xy 205.74 64.77) (xy 224.79 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16624f22-978f-4087-a6be-fe87d76cecc0")
+	)
+	(bus
+		(pts
+			(xy 217.17 35.56) (xy 217.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f573375-9565-45a1-80ac-ad4b892297fb")
+	)
+	(bus
+		(pts
+			(xy 152.4 69.85) (xy 152.4 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328baf81-7559-4a17-b17b-9c8b7bcd2f5f")
+	)
+	(wire
+		(pts
+			(xy 205.74 59.69) (xy 224.79 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3450d579-f272-43c9-96fc-96053c311046")
+	)
 	(bus
 		(pts
 			(xy 123.19 55.88) (xy 116.84 55.88)
@@ -80,6 +130,46 @@
 	)
 	(bus
 		(pts
+			(xy 205.74 87.63) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5193aefc-1fcf-41b8-9265-8df1704745b4")
+	)
+	(wire
+		(pts
+			(xy 205.74 67.31) (xy 224.79 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5358f271-58fe-44b3-9f60-432bb151ed1d")
+	)
+	(bus
+		(pts
+			(xy 217.17 45.72) (xy 224.79 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c76aac7-95d5-43aa-9b31-8ad6f9f21603")
+	)
+	(wire
+		(pts
+			(xy 205.74 92.71) (xy 226.06 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d332e05-a24c-4ca5-8610-527b02c1d468")
+	)
+	(bus
+		(pts
 			(xy 148.59 137.16) (xy 161.29 137.16)
 		)
 		(stroke
@@ -87,6 +177,56 @@
 			(type default)
 		)
 		(uuid "7ffc347e-25a7-4285-8492-119d5028459a")
+	)
+	(wire
+		(pts
+			(xy 205.74 90.17) (xy 226.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93184868-8c89-40d4-b26c-10d1116b00b9")
+	)
+	(wire
+		(pts
+			(xy 205.74 57.15) (xy 224.79 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98df277c-4a96-4c26-a341-952b4b6787ae")
+	)
+	(wire
+		(pts
+			(xy 205.74 62.23) (xy 224.79 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1126d8f-52bf-493a-abf5-9f7099be4217")
+	)
+	(bus
+		(pts
+			(xy 152.4 35.56) (xy 217.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a677fffc-f78c-4d0f-b6de-2e52323fab3f")
+	)
+	(bus
+		(pts
+			(xy 205.74 53.34) (xy 224.79 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8bb9d7d-4f49-4680-892f-47b7c077bc07")
 	)
 	(bus
 		(pts
@@ -168,6 +308,16 @@
 		)
 		(uuid "f1a21ac5-05c7-4b93-b021-879868b83e38")
 	)
+	(bus
+		(pts
+			(xy 205.74 50.8) (xy 224.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9e895d-adec-41e6-97f2-3117876772bc")
+	)
 	(sheet
 		(at 123.19 133.35)
 		(size 25.4 7.62)
@@ -218,9 +368,127 @@
 			(uuid "858eda0b-4235-4ae8-86e3-335d4ad9a1da")
 		)
 		(instances
-			(project "base-module"
+			(project "nav-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 41.91)
+		(size 24.13 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13f8d5eb-0b85-41a0-ad39-3e3eeb7a16c4")
+		(property "Sheetname" "GPS-RTK"
+			(at 224.79 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps-rtk.kicad_sch"
+			(at 224.79 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPS_SPI{SPI}" bidirectional
+			(at 224.79 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12de24ce-35c1-4931-9109-1aea3a4da180")
+		)
+		(pin "GPS_UART{UART}" bidirectional
+			(at 224.79 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4598bcaf-c238-4407-b829-7b526806675a")
+		)
+		(pin "USB_GPS{USB}" bidirectional
+			(at 224.79 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0f1f43b1-6373-439d-bc9b-d7a3e1ccc6ae")
+		)
+		(pin "GPS_NRESET" input
+			(at 224.79 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "49bb905b-1eff-4186-bc1f-191230266ad5")
+		)
+		(pin "GPS_MODE_SELECT" input
+			(at 224.79 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd522034-c3be-4fd5-b16e-0cd3f8195cb6")
+		)
+		(pin "GPS_EXINTERUPT" output
+			(at 224.79 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1ee7978-af75-45a2-9504-12983e8c2714")
+		)
+		(pin "GPS_GEOFENCE_STAT" output
+			(at 224.79 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "231affce-5e7c-4bd1-b545-fdd1d712c0a5")
+		)
+		(pin "GPS_RTK_STAT" output
+			(at 224.79 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3dcdc64-912d-4ca7-babe-17f36aceab7d")
+		)
+		(instances
+			(project "nav-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "11")
 				)
 			)
 		)
@@ -256,7 +524,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "nav-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "3")
 				)
@@ -313,9 +581,77 @@
 			(uuid "dd8404cf-fd75-41cc-aa36-6f2c3a0e4af5")
 		)
 		(instances
-			(project "base-module"
+			(project "nav-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 83.82)
+		(size 24.13 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89e62ca8-6649-452b-b3fd-35dd46316796")
+		(property "Sheetname" "IMU"
+			(at 226.06 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 226.06 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IMU_I2C{I2C}" bidirectional
+			(at 226.06 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1444e6ec-1b47-4891-a788-5fbd94bdc028")
+		)
+		(pin "IMU_NRESET" input
+			(at 226.06 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d980bf8a-40dd-4b65-a3af-5ed44b222626")
+		)
+		(pin "IMU_EXINTERUPT" input
+			(at 226.06 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c53d017c-eb00-4975-b55f-00fef78e34a4")
+		)
+		(instances
+			(project "nav-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "12")
 				)
 			)
 		)
@@ -371,7 +707,7 @@
 			(uuid "c146d2d2-99d4-47de-b999-c91753c99574")
 		)
 		(instances
-			(project "base-module"
+			(project "nav-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "8")
 				)
@@ -458,8 +794,108 @@
 			)
 			(uuid "39375a4c-9c10-4301-9b74-766af280eb37")
 		)
+		(pin "GPS_UART{UART}" bidirectional
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85f1d5f5-07f7-47db-baa6-fb3cc086d80e")
+		)
+		(pin "GPS_SPI{SPI}" bidirectional
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "538b0758-cda7-43b6-87e9-82c7bef14300")
+		)
+		(pin "GPS_MODE_SELECT" input
+			(at 205.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b9d82501-a47f-45c2-8196-a1cb994d73a2")
+		)
+		(pin "GPS_EXINTERUPT" output
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d2cbe58-cf53-419c-965e-6a798bdd175d")
+		)
+		(pin "GPS_RTK_STAT" output
+			(at 205.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e351789b-457e-41ce-a72c-81a8d7d3d630")
+		)
+		(pin "GPS_GEOFENCE_STAT" output
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8779166b-10bf-4488-80ce-318154fd0378")
+		)
+		(pin "GPS_NRESET" input
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a31f592d-737a-4b9e-8845-9d86eec36e78")
+		)
+		(pin "IMU_I2C{I2C}" bidirectional
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a3226df-2b4c-4352-92de-ea45603f1376")
+		)
+		(pin "IMU_EXINTERUPT" input
+			(at 205.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16119153-36e6-4416-b55f-5ed64360121e")
+		)
+		(pin "IMU_NRESET" input
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4c2fedb-5ffe-4a1d-90b6-eb6ec5675e2a")
+		)
 		(instances
-			(project "base-module"
+			(project "nav-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "4")
 				)
@@ -526,8 +962,18 @@
 			)
 			(uuid "0c956685-101a-4f07-b7bf-c720f0663eeb")
 		)
+		(pin "USB_GPS{USB}" input
+			(at 148.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d729eb38-aad2-4a44-908c-1b8b51108939")
+		)
 		(instances
-			(project "base-module"
+			(project "nav-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "9")
 				)
@@ -575,7 +1021,7 @@
 			(uuid "443041a0-7600-4d4d-a6ad-970474c79d47")
 		)
 		(instances
-			(project "base-module"
+			(project "nav-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "10")
 				)
@@ -633,7 +1079,7 @@
 			(uuid "b44b70df-07dc-4cd8-a434-5c68d0d5ae9b")
 		)
 		(instances
-			(project "base-module"
+			(project "nav-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "7")
 				)
@@ -731,7 +1177,7 @@
 			(uuid "de418b66-6533-4278-9c6e-995fea317169")
 		)
 		(instances
-			(project "base-module"
+			(project "nav-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "2")
 				)
