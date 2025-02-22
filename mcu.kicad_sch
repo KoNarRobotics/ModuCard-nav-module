@@ -7,7 +7,7 @@
 	(title_block
 		(title "ModuCard nav module")
 		(date "2025-02-18")
-		(rev "1.0.0")
+		(rev "1.0")
 		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
 		(comment 2 "Project author: Patryk Dudziński")
@@ -7090,6 +7090,273 @@
 				)
 			)
 		)
+		(symbol "PCM_JLCPCB-Resistors:0402,4.7kΩ"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4.7kΩ"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:R_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25900"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "5393613"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0402WGF4701TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "4.7kΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power(Watts)" "62.5mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Overload Voltage (Max)" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,4.7kΩ_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,4.7kΩ_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_JLCPCB-Resistors:0402,470Ω"
 			(pin_numbers hide)
 			(pin_names
@@ -8013,6 +8280,12 @@
 		(uuid "62c03bc5-503d-490d-b670-1749e749b090")
 	)
 	(junction
+		(at 204.47 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "659525fa-1cd6-435f-b3b8-f517cf82368e")
+	)
+	(junction
 		(at 269.24 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8055,6 +8328,12 @@
 		(uuid "a75f30af-7533-4fc7-afb1-acdfd854e19c")
 	)
 	(junction
+		(at 204.47 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6c21316-2771-46a1-a553-db4ad7acb0f9")
+	)
+	(junction
 		(at 129.54 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8071,6 +8350,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2ed4c9e-99fb-46dd-a81a-8451d9383c7e")
+	)
+	(junction
+		(at 209.55 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d98f2c12-5330-4082-a0aa-ca308895dba9")
 	)
 	(junction
 		(at 134.62 34.29)
@@ -8283,7 +8568,7 @@
 		(uuid "feabe52f-42d9-431e-a3a5-30d068f374ce")
 	)
 	(bus_entry
-		(at 220.98 31.75)
+		(at 220.98 29.21)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8292,7 +8577,7 @@
 		(uuid "01cec2db-c0e8-4b8b-8320-ac31e278642b")
 	)
 	(bus_entry
-		(at 220.98 21.59)
+		(at 220.98 19.05)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8301,7 +8586,7 @@
 		(uuid "135e8777-6b2d-4aca-a574-3e4969252777")
 	)
 	(bus_entry
-		(at 210.82 152.4)
+		(at 215.9 149.86)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8310,7 +8595,7 @@
 		(uuid "3a263806-100a-4459-ae7a-b38b4c76a5e9")
 	)
 	(bus_entry
-		(at 210.82 149.86)
+		(at 215.9 147.32)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8319,7 +8604,7 @@
 		(uuid "3b10b0b4-6d8a-4c0d-958d-9ae7323df42a")
 	)
 	(bus_entry
-		(at 209.55 110.49)
+		(at 209.55 100.33)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8328,7 +8613,7 @@
 		(uuid "3e41c4c6-b15e-409c-90ac-70a41e4a602a")
 	)
 	(bus_entry
-		(at 218.44 81.28)
+		(at 218.44 69.85)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8337,7 +8622,7 @@
 		(uuid "4f495690-fdec-4403-920c-5c218a649a65")
 	)
 	(bus_entry
-		(at 209.55 113.03)
+		(at 209.55 102.87)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8346,7 +8631,7 @@
 		(uuid "601d4d73-4b79-4762-b049-74e7d0a9401d")
 	)
 	(bus_entry
-		(at 218.44 68.58)
+		(at 218.44 59.69)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8355,7 +8640,7 @@
 		(uuid "7eb9ed83-2187-40bc-a210-adcdf1321178")
 	)
 	(bus_entry
-		(at 220.98 34.29)
+		(at 220.98 31.75)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8364,7 +8649,7 @@
 		(uuid "86dff570-f09f-4fb8-838d-6069c97c086a")
 	)
 	(bus_entry
-		(at 218.44 54.61)
+		(at 218.44 48.26)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8373,7 +8658,7 @@
 		(uuid "8e6e077d-a030-4195-9168-7e61cbc79a6b")
 	)
 	(bus_entry
-		(at 218.44 83.82)
+		(at 218.44 72.39)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8382,7 +8667,7 @@
 		(uuid "955d99e0-9a72-41d3-a5b9-5534c9b8ed35")
 	)
 	(bus_entry
-		(at 209.55 115.57)
+		(at 209.55 105.41)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8391,7 +8676,7 @@
 		(uuid "97034cfb-0b9b-4a35-8946-107da277e89e")
 	)
 	(bus_entry
-		(at 220.98 26.67)
+		(at 220.98 24.13)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8400,7 +8685,7 @@
 		(uuid "a873197b-9a00-4be4-8038-fc54ec76705d")
 	)
 	(bus_entry
-		(at 209.55 118.11)
+		(at 209.55 107.95)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8409,7 +8694,7 @@
 		(uuid "adb164c2-2c8a-40a0-a327-7e9841fb131f")
 	)
 	(bus_entry
-		(at 220.98 46.99)
+		(at 220.98 40.64)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8418,7 +8703,7 @@
 		(uuid "b4d67c85-295d-4494-824b-ddcd622a605d")
 	)
 	(bus_entry
-		(at 218.44 57.15)
+		(at 218.44 50.8)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8427,7 +8712,7 @@
 		(uuid "c75b6ebe-c792-4d6b-9e21-f5756d63abd0")
 	)
 	(bus_entry
-		(at 208.28 99.06)
+		(at 208.28 88.9)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8436,7 +8721,7 @@
 		(uuid "ca82448d-8a69-455d-aa1a-722fa7c9b4f2")
 	)
 	(bus_entry
-		(at 220.98 29.21)
+		(at 220.98 26.67)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8445,7 +8730,7 @@
 		(uuid "d6ec1b64-6f0f-4bec-a03f-2888f6ac50ab")
 	)
 	(bus_entry
-		(at 208.28 101.6)
+		(at 208.28 91.44)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8454,7 +8739,7 @@
 		(uuid "daad5886-0ec7-4ba5-bebe-8149c304e26e")
 	)
 	(bus_entry
-		(at 218.44 66.04)
+		(at 218.44 57.15)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8463,7 +8748,7 @@
 		(uuid "db3a3e38-1a42-4e39-80d5-c6e48311b057")
 	)
 	(bus_entry
-		(at 220.98 44.45)
+		(at 220.98 38.1)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8472,7 +8757,7 @@
 		(uuid "f3fa5673-e5d1-4620-aa46-7cd18b551e04")
 	)
 	(bus_entry
-		(at 220.98 24.13)
+		(at 220.98 21.59)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8481,7 +8766,7 @@
 		(uuid "fa046a3c-8f3f-49e0-abe3-5f17ea1096dc")
 	)
 	(bus_entry
-		(at 218.44 78.74)
+		(at 218.44 67.31)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8491,7 +8776,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 26.67) (xy 220.98 29.21)
+			(xy 220.98 24.13) (xy 220.98 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8551,7 +8836,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 19.05) (xy 205.74 19.05)
+			(xy 218.44 16.51) (xy 205.74 16.51)
 		)
 		(stroke
 			(width 0)
@@ -8591,6 +8876,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 142.24) (xy 209.55 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0caf9725-6583-48a6-9c5a-14df054965ba")
+	)
+	(wire
+		(pts
 			(xy 260.35 148.59) (xy 260.35 156.21)
 		)
 		(stroke
@@ -8621,7 +8916,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 90.17) (xy 224.79 90.17)
+			(xy 222.25 78.74) (xy 224.79 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8651,7 +8946,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 133.35) (xy 191.77 133.35)
+			(xy 213.36 123.19) (xy 191.77 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8671,7 +8966,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 86.36) (xy 220.98 88.9)
+			(xy 220.98 74.93) (xy 220.98 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8691,6 +8986,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 132.08) (xy 204.47 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e58c0f-7f2c-4523-bccd-23126acacbf1")
+	)
+	(wire
+		(pts
 			(xy 157.48 110.49) (xy 171.45 110.49)
 		)
 		(stroke
@@ -8701,7 +9006,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 107.95) (xy 191.77 107.95)
+			(xy 207.01 97.79) (xy 191.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8781,7 +9086,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 135.89) (xy 191.77 135.89)
+			(xy 213.36 125.73) (xy 191.77 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8821,7 +9126,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 38.1) (xy 224.79 38.1)
+			(xy 222.25 35.56) (xy 224.79 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8841,7 +9146,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 66.04) (xy 218.44 66.04)
+			(xy 205.74 57.15) (xy 218.44 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8868,6 +9173,16 @@
 			(type default)
 		)
 		(uuid "28f8497c-6eb5-415c-9443-9ca78f5a4326")
+	)
+	(wire
+		(pts
+			(xy 204.47 147.32) (xy 190.5 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a520814-1497-4a0d-b251-fc6a3b903c06")
 	)
 	(wire
 		(pts
@@ -8901,7 +9216,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 113.03) (xy 191.77 113.03)
+			(xy 207.01 102.87) (xy 191.77 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8921,7 +9236,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 26.67) (xy 205.74 26.67)
+			(xy 218.44 24.13) (xy 205.74 24.13)
 		)
 		(stroke
 			(width 0)
@@ -8941,7 +9256,7 @@
 	)
 	(bus
 		(pts
-			(xy 209.55 115.57) (xy 209.55 118.11)
+			(xy 209.55 105.41) (xy 209.55 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8951,7 +9266,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 63.5) (xy 220.98 62.23)
+			(xy 222.25 57.15) (xy 220.98 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8968,6 +9283,16 @@
 			(type default)
 		)
 		(uuid "32df9ffb-8e53-4e6e-b8cd-641b83adad41")
+	)
+	(wire
+		(pts
+			(xy 204.47 133.35) (xy 204.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338b1fc8-1f7f-430f-97c9-af71d64e452b")
 	)
 	(wire
 		(pts
@@ -9001,7 +9326,7 @@
 	)
 	(bus
 		(pts
-			(xy 210.82 149.86) (xy 210.82 152.4)
+			(xy 215.9 147.32) (xy 215.9 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9031,7 +9356,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 29.21) (xy 205.74 29.21)
+			(xy 218.44 26.67) (xy 205.74 26.67)
 		)
 		(stroke
 			(width 0)
@@ -9041,7 +9366,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 83.82) (xy 220.98 86.36)
+			(xy 220.98 72.39) (xy 220.98 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9061,7 +9386,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 44.45) (xy 205.74 44.45)
+			(xy 218.44 38.1) (xy 205.74 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9101,7 +9426,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 24.13) (xy 220.98 26.67)
+			(xy 220.98 21.59) (xy 220.98 24.13)
 		)
 		(stroke
 			(width 0)
@@ -9111,7 +9436,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 147.32) (xy 195.58 147.32)
+			(xy 213.36 144.78) (xy 209.55 144.78)
 		)
 		(stroke
 			(width 0)
@@ -9121,7 +9446,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 101.6) (xy 208.28 102.87)
+			(xy 208.28 91.44) (xy 208.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -9141,7 +9466,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 21.59) (xy 220.98 24.13)
+			(xy 220.98 19.05) (xy 220.98 21.59)
 		)
 		(stroke
 			(width 0)
@@ -9211,7 +9536,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 160.02) (xy 195.58 160.02)
+			(xy 217.17 157.48) (xy 200.66 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9261,13 +9586,23 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 74.93) (xy 220.98 73.66)
+			(xy 222.25 66.04) (xy 220.98 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5662b8a2-c3eb-4ba2-a033-1ee6fc8d77a6")
+	)
+	(wire
+		(pts
+			(xy 209.55 144.78) (xy 190.5 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c05014-c380-402a-832c-11122b5b2b3c")
 	)
 	(wire
 		(pts
@@ -9291,7 +9626,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 31.75) (xy 220.98 34.29)
+			(xy 220.98 29.21) (xy 220.98 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9318,6 +9653,16 @@
 			(type default)
 		)
 		(uuid "5d70848d-8876-41a0-8204-e41a2287d740")
+	)
+	(wire
+		(pts
+			(xy 204.47 133.35) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6291488c-8306-4c3d-966c-e2a45b03eb01")
 	)
 	(wire
 		(pts
@@ -9351,7 +9696,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 81.28) (xy 218.44 81.28)
+			(xy 205.74 69.85) (xy 218.44 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9371,7 +9716,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 74.93) (xy 224.79 74.93)
+			(xy 222.25 66.04) (xy 224.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9381,7 +9726,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 29.21) (xy 220.98 31.75)
+			(xy 220.98 26.67) (xy 220.98 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9451,6 +9796,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 134.62) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7388a102-f3bf-4cc7-82bf-3331df896627")
+	)
+	(wire
+		(pts
 			(xy 20.32 137.16) (xy 31.75 137.16)
 		)
 		(stroke
@@ -9491,7 +9846,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 90.17) (xy 220.98 88.9)
+			(xy 222.25 78.74) (xy 220.98 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9511,7 +9866,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 57.15) (xy 220.98 59.69)
+			(xy 220.98 50.8) (xy 220.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9571,7 +9926,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 110.49) (xy 191.77 110.49)
+			(xy 207.01 100.33) (xy 191.77 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9581,7 +9936,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 83.82) (xy 218.44 83.82)
+			(xy 205.74 72.39) (xy 218.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -9631,7 +9986,7 @@
 	)
 	(bus
 		(pts
-			(xy 210.82 152.4) (xy 210.82 154.94)
+			(xy 215.9 149.86) (xy 215.9 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9651,7 +10006,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 83.82) (xy 220.98 81.28)
+			(xy 220.98 72.39) (xy 220.98 69.85)
 		)
 		(stroke
 			(width 0)
@@ -9661,7 +10016,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 46.99) (xy 220.98 49.53)
+			(xy 220.98 40.64) (xy 220.98 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9671,7 +10026,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 157.48) (xy 195.58 157.48)
+			(xy 217.17 154.94) (xy 200.66 154.94)
 		)
 		(stroke
 			(width 0)
@@ -9691,6 +10046,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 142.24) (xy 204.47 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5fd9d8-4b9b-437a-b702-f378cac89b04")
+	)
+	(wire
+		(pts
 			(xy 157.48 82.55) (xy 171.45 82.55)
 		)
 		(stroke
@@ -9701,7 +10066,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 128.27) (xy 191.77 128.27)
+			(xy 213.36 118.11) (xy 191.77 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9781,7 +10146,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 50.8) (xy 224.79 50.8)
+			(xy 222.25 44.45) (xy 224.79 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9791,7 +10156,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 115.57) (xy 191.77 115.57)
+			(xy 207.01 105.41) (xy 191.77 105.41)
 		)
 		(stroke
 			(width 0)
@@ -9801,7 +10166,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 54.61) (xy 218.44 54.61)
+			(xy 205.74 48.26) (xy 218.44 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9811,7 +10176,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 71.12) (xy 220.98 68.58)
+			(xy 220.98 62.23) (xy 220.98 59.69)
 		)
 		(stroke
 			(width 0)
@@ -9821,7 +10186,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 71.12) (xy 220.98 73.66)
+			(xy 220.98 62.23) (xy 220.98 64.77)
 		)
 		(stroke
 			(width 0)
@@ -9861,7 +10226,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 96.52) (xy 191.77 96.52)
+			(xy 205.74 86.36) (xy 191.77 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9891,7 +10256,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 125.73) (xy 191.77 125.73)
+			(xy 213.36 115.57) (xy 191.77 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9931,7 +10296,7 @@
 	)
 	(bus
 		(pts
-			(xy 209.55 110.49) (xy 209.55 113.03)
+			(xy 209.55 100.33) (xy 209.55 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9941,7 +10306,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 21.59) (xy 205.74 21.59)
+			(xy 218.44 19.05) (xy 205.74 19.05)
 		)
 		(stroke
 			(width 0)
@@ -9951,7 +10316,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 59.69) (xy 220.98 62.23)
+			(xy 220.98 53.34) (xy 220.98 55.88)
 		)
 		(stroke
 			(width 0)
@@ -9961,7 +10326,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 34.29) (xy 220.98 36.83)
+			(xy 220.98 31.75) (xy 220.98 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9991,7 +10356,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 149.86) (xy 195.58 149.86)
+			(xy 213.36 147.32) (xy 204.47 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10031,7 +10396,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 130.81) (xy 191.77 130.81)
+			(xy 213.36 120.65) (xy 191.77 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10041,7 +10406,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 38.1) (xy 220.98 36.83)
+			(xy 222.25 35.56) (xy 220.98 34.29)
 		)
 		(stroke
 			(width 0)
@@ -10091,7 +10456,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 24.13) (xy 205.74 24.13)
+			(xy 218.44 21.59) (xy 205.74 21.59)
 		)
 		(stroke
 			(width 0)
@@ -10111,7 +10476,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 78.74) (xy 218.44 78.74)
+			(xy 205.74 67.31) (xy 218.44 67.31)
 		)
 		(stroke
 			(width 0)
@@ -10141,7 +10506,7 @@
 	)
 	(bus
 		(pts
-			(xy 209.55 113.03) (xy 209.55 115.57)
+			(xy 209.55 102.87) (xy 209.55 105.41)
 		)
 		(stroke
 			(width 0)
@@ -10151,7 +10516,7 @@
 	)
 	(bus
 		(pts
-			(xy 210.82 118.11) (xy 209.55 118.11)
+			(xy 210.82 107.95) (xy 209.55 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10291,7 +10656,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 99.06) (xy 191.77 99.06)
+			(xy 205.74 88.9) (xy 191.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10301,7 +10666,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 57.15) (xy 218.44 57.15)
+			(xy 205.74 50.8) (xy 218.44 50.8)
 		)
 		(stroke
 			(width 0)
@@ -10381,7 +10746,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 154.94) (xy 210.82 154.94)
+			(xy 217.17 152.4) (xy 215.9 152.4)
 		)
 		(stroke
 			(width 0)
@@ -10391,7 +10756,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 68.58) (xy 218.44 68.58)
+			(xy 205.74 59.69) (xy 218.44 59.69)
 		)
 		(stroke
 			(width 0)
@@ -10411,7 +10776,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 41.91) (xy 205.74 41.91)
+			(xy 218.44 35.56) (xy 205.74 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10431,7 +10796,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 44.45) (xy 220.98 46.99)
+			(xy 220.98 38.1) (xy 220.98 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10451,7 +10816,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 99.06) (xy 208.28 101.6)
+			(xy 208.28 88.9) (xy 208.28 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10501,7 +10866,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 31.75) (xy 205.74 31.75)
+			(xy 218.44 29.21) (xy 205.74 29.21)
 		)
 		(stroke
 			(width 0)
@@ -10561,7 +10926,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 63.5) (xy 224.79 63.5)
+			(xy 222.25 57.15) (xy 224.79 57.15)
 		)
 		(stroke
 			(width 0)
@@ -10641,7 +11006,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 50.8) (xy 220.98 49.53)
+			(xy 222.25 44.45) (xy 220.98 43.18)
 		)
 		(stroke
 			(width 0)
@@ -10671,7 +11036,7 @@
 	)
 	(bus
 		(pts
-			(xy 209.55 102.87) (xy 208.28 102.87)
+			(xy 209.55 92.71) (xy 208.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -10680,7 +11045,7 @@
 		(uuid "ff6e1c71-751c-4fde-8602-c904cb79cd95")
 	)
 	(rectangle
-		(start 189.23 142.24)
+		(start 189.23 128.27)
 		(end 236.22 165.1)
 		(stroke
 			(width 0)
@@ -10704,8 +11069,8 @@
 		(uuid 6ef870d3-653f-48c9-8ee2-21b3f759299c)
 	)
 	(rectangle
-		(start 189.23 92.71)
-		(end 236.22 142.24)
+		(start 189.23 82.55)
+		(end 236.22 128.27)
 		(stroke
 			(width 0)
 			(type default)
@@ -10776,7 +11141,7 @@
 	)
 	(text "GPS"
 		(exclude_from_sim no)
-		(at 212.852 94.488 0)
+		(at 212.852 84.328 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10869,7 +11234,7 @@
 	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at 214.884 144.526 0)
+		(at 213.868 130.556 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10878,7 +11243,8 @@
 		(uuid "fa056927-9fce-4b24-95a3-aaddfb2884a6")
 	)
 	(label "GPS_SPI.CS"
-		(at 191.77 113.03 0)
+		(at 191.77 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10889,6 +11255,7 @@
 	)
 	(label "USER_LED_1"
 		(at 100.33 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10899,6 +11266,7 @@
 	)
 	(label "CAN2.RX"
 		(at 171.45 120.65 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10909,6 +11277,7 @@
 	)
 	(label "OSC32_IN"
 		(at 275.59 118.11 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10918,7 +11287,8 @@
 		(uuid "0f5b8d1a-a220-49f1-8985-7874824f0773")
 	)
 	(label "GPS_SPI.MISO"
-		(at 191.77 107.95 0)
+		(at 191.77 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10929,6 +11299,7 @@
 	)
 	(label "CAN1.RX"
 		(at 100.33 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10939,6 +11310,7 @@
 	)
 	(label "GPS_NRESET"
 		(at 91.44 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10949,6 +11321,7 @@
 	)
 	(label "CAN1.TX"
 		(at 100.33 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10959,6 +11332,7 @@
 	)
 	(label "IMU_NRESET"
 		(at 179.07 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10969,6 +11343,7 @@
 	)
 	(label "IMU_EXINTERUPT"
 		(at 179.07 54.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10978,7 +11353,8 @@
 		(uuid "1eb7b968-7bc2-4bc4-a5bd-4d7f9507df56")
 	)
 	(label "GPS_UART.RX"
-		(at 191.77 99.06 0)
+		(at 191.77 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10989,6 +11365,7 @@
 	)
 	(label "STATUS_LED"
 		(at 247.65 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10999,6 +11376,7 @@
 	)
 	(label "+VDDA"
 		(at 146.05 24.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11009,6 +11387,7 @@
 	)
 	(label "OSC32_OUT"
 		(at 243.84 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11019,6 +11398,7 @@
 	)
 	(label "USR_BUTTON"
 		(at 100.33 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11029,6 +11409,7 @@
 	)
 	(label "USR_BTN"
 		(at 30.48 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11039,6 +11420,7 @@
 	)
 	(label "USER_LED_1"
 		(at 247.65 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11048,7 +11430,8 @@
 		(uuid "30fe7123-52f8-4087-b3e9-683d00ea8815")
 	)
 	(label "GPS_GEOFENCE_STAT"
-		(at 191.77 133.35 0)
+		(at 191.77 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11058,7 +11441,8 @@
 		(uuid "31c254a8-e6ec-4ccf-9de1-f641a2a0a6b5")
 	)
 	(label "IMU_I2C.SCL"
-		(at 195.58 147.32 0)
+		(at 190.5 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11069,6 +11453,7 @@
 	)
 	(label "GPS_SPI.MOSI"
 		(at 91.44 130.81 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11078,7 +11463,8 @@
 		(uuid "398fd2ba-fc2b-4499-8f94-12835e049114")
 	)
 	(label "QSPI1.IO2"
-		(at 205.74 24.13 0)
+		(at 205.74 21.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11088,7 +11474,8 @@
 		(uuid "3b48fe8f-b342-4d8b-a81b-8d6552badf2c")
 	)
 	(label "GPS_SPI.MOSI"
-		(at 191.77 110.49 0)
+		(at 191.77 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11099,6 +11486,7 @@
 	)
 	(label "GPS_EXINTERUPT"
 		(at 91.44 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11108,7 +11496,8 @@
 		(uuid "3f274778-f5a8-4722-9b3e-41eeb2304068")
 	)
 	(label "IMU_NRESET"
-		(at 195.58 157.48 0)
+		(at 200.66 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11119,6 +11508,7 @@
 	)
 	(label "USB_MCU.D+"
 		(at 171.45 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11129,6 +11519,7 @@
 	)
 	(label "SWD.~{RST}"
 		(at 43.18 177.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11139,6 +11530,7 @@
 	)
 	(label "NRST"
 		(at 21.59 177.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11148,7 +11540,8 @@
 		(uuid "55f689da-83a2-481d-8165-e53401f8b6fb")
 	)
 	(label "SWD.SWDIO"
-		(at 205.74 78.74 0)
+		(at 205.74 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11158,7 +11551,8 @@
 		(uuid "55fda6e1-c29c-43ac-8bc8-a99922d58270")
 	)
 	(label "USB_MCU.D-"
-		(at 205.74 44.45 0)
+		(at 205.74 38.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11169,6 +11563,7 @@
 	)
 	(label "OSC32_IN"
 		(at 170.18 168.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11179,6 +11574,7 @@
 	)
 	(label "IMU_NRESET"
 		(at 93.98 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11189,6 +11585,7 @@
 	)
 	(label "OSC_OUT"
 		(at 276.86 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11198,7 +11595,8 @@
 		(uuid "5d05980c-5993-4749-a511-b81e8024d417")
 	)
 	(label "QSPI1.IO3"
-		(at 205.74 26.67 0)
+		(at 205.74 24.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11208,7 +11606,8 @@
 		(uuid "607ea868-4f1b-4f00-a15d-dab0c8aae8df")
 	)
 	(label "QSPI1.IO1"
-		(at 205.74 21.59 0)
+		(at 205.74 19.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11219,6 +11618,7 @@
 	)
 	(label "GPS_GEOFENCE_STAT"
 		(at 91.44 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11229,6 +11629,7 @@
 	)
 	(label "IMU_EXINTERUPT"
 		(at 93.98 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11239,6 +11640,7 @@
 	)
 	(label "IMU_I2C.SDA"
 		(at 171.45 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11248,7 +11650,8 @@
 		(uuid "644c8c8f-7a2f-470a-97ce-004f0c57e38c")
 	)
 	(label "IMU_EXINTERUPT"
-		(at 195.58 160.02 0)
+		(at 200.66 157.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11258,7 +11661,8 @@
 		(uuid "655907c5-2184-43ca-9e8e-2f5a8fb79e1e")
 	)
 	(label "GPS_NRESET"
-		(at 191.77 125.73 0)
+		(at 191.77 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11268,7 +11672,8 @@
 		(uuid "65cd1699-a984-4d10-a6b8-e2afe1fff52d")
 	)
 	(label "GPS_EXINTERUPT"
-		(at 191.77 135.89 0)
+		(at 191.77 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11278,7 +11683,8 @@
 		(uuid "66aedd75-023a-4eab-918b-e4afd0865a29")
 	)
 	(label "QSPI1.SCLK"
-		(at 205.74 31.75 0)
+		(at 205.74 29.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11288,7 +11694,8 @@
 		(uuid "69fbf4d7-cc26-4938-bb71-8de0882c9b60")
 	)
 	(label "SWD.SWCLK"
-		(at 205.74 81.28 0)
+		(at 205.74 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11298,7 +11705,8 @@
 		(uuid "70dd164e-155a-46d8-accb-2238913823bf")
 	)
 	(label "SWD.~{RST}"
-		(at 205.74 83.82 0)
+		(at 205.74 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11309,6 +11717,7 @@
 	)
 	(label "QSPI1.IO0"
 		(at 100.33 140.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11319,6 +11728,7 @@
 	)
 	(label "BOOT_EN"
 		(at 171.45 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11329,6 +11739,7 @@
 	)
 	(label "OSC32_OUT"
 		(at 170.18 171.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11338,7 +11749,8 @@
 		(uuid "794aa610-2176-4312-8f33-62de0dc2bd57")
 	)
 	(label "CAN1.RX"
-		(at 205.74 68.58 0)
+		(at 205.74 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11348,7 +11760,8 @@
 		(uuid "7a493bd0-2e81-4042-8a85-2be5add1b373")
 	)
 	(label "CAN2.RX"
-		(at 205.74 57.15 0)
+		(at 205.74 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11358,7 +11771,8 @@
 		(uuid "7b4f39a9-d0a7-410d-919b-b71e05420983")
 	)
 	(label "QSPI1.CS"
-		(at 205.74 29.21 0)
+		(at 205.74 26.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11369,6 +11783,7 @@
 	)
 	(label "GPS_SPI.CS"
 		(at 171.45 102.87 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11379,6 +11794,7 @@
 	)
 	(label "OSC_OUT"
 		(at 100.33 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11389,6 +11805,7 @@
 	)
 	(label "QSPI1.IO3"
 		(at 100.33 146.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11399,6 +11816,7 @@
 	)
 	(label "VCAP_1"
 		(at 100.33 156.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11409,6 +11827,7 @@
 	)
 	(label "BOOT0"
 		(at 102.87 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11419,6 +11838,7 @@
 	)
 	(label "IMU_I2C.SCL"
 		(at 171.45 110.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11429,6 +11849,7 @@
 	)
 	(label "OSC_IN"
 		(at 100.33 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11439,6 +11860,7 @@
 	)
 	(label "USER_LED_2"
 		(at 264.16 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11448,7 +11870,8 @@
 		(uuid "9cf60ebe-b337-41da-9b8b-fa816511563a")
 	)
 	(label "QSPI1.IO0"
-		(at 205.74 19.05 0)
+		(at 205.74 16.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11459,6 +11882,7 @@
 	)
 	(label "GPS_SPI.CLK"
 		(at 171.45 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11468,7 +11892,8 @@
 		(uuid "a2cc443f-0444-4400-b926-70b5838c36bd")
 	)
 	(label "GPS_MODE_SELECT"
-		(at 191.77 128.27 0)
+		(at 191.77 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11478,7 +11903,8 @@
 		(uuid "a74d49e3-74cd-4748-99bb-9cf5a457fead")
 	)
 	(label "GPS_RTK_STAT"
-		(at 191.77 130.81 0)
+		(at 191.77 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11488,7 +11914,8 @@
 		(uuid "a82ebae3-1d01-451a-9b7b-fac8c1ce865c")
 	)
 	(label "CAN2.TX"
-		(at 205.74 54.61 0)
+		(at 205.74 48.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11498,7 +11925,8 @@
 		(uuid "a8b44afe-3379-44a0-baa4-c78548866fce")
 	)
 	(label "GPS_SPI.CLK"
-		(at 191.77 115.57 0)
+		(at 191.77 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11508,7 +11936,8 @@
 		(uuid "aa093111-9073-41ef-ab16-291692e2b6e4")
 	)
 	(label "IMU_I2C.SDA"
-		(at 195.58 149.86 0)
+		(at 190.5 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11519,6 +11948,7 @@
 	)
 	(label "USR_BUTTON"
 		(at 50.8 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11529,6 +11959,7 @@
 	)
 	(label "SWD.SWDIO"
 		(at 171.45 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11539,6 +11970,7 @@
 	)
 	(label "SWD.~{RST}"
 		(at 102.87 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11549,6 +11981,7 @@
 	)
 	(label "QSPI1.CS"
 		(at 171.45 115.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11559,6 +11992,7 @@
 	)
 	(label "USER_LED_2"
 		(at 100.33 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11569,6 +12003,7 @@
 	)
 	(label "OSC_IN"
 		(at 243.84 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11579,6 +12014,7 @@
 	)
 	(label "USB_MCU.D-"
 		(at 171.45 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11589,6 +12025,7 @@
 	)
 	(label "VCAP_2"
 		(at 100.33 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11599,6 +12036,7 @@
 	)
 	(label "STATUS_LED"
 		(at 100.33 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11609,6 +12047,7 @@
 	)
 	(label "BOOT0"
 		(at 50.8 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11619,6 +12058,7 @@
 	)
 	(label "GPS_RTK_STAT"
 		(at 91.44 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11629,6 +12069,7 @@
 	)
 	(label "QSPI1.SCLK"
 		(at 171.45 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11639,6 +12080,7 @@
 	)
 	(label "GPS_MODE_SELECT"
 		(at 91.44 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11649,6 +12091,7 @@
 	)
 	(label "BOOT_EN"
 		(at 20.32 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11658,7 +12101,8 @@
 		(uuid "cd49292f-4796-4b13-ab91-f3e939c1d073")
 	)
 	(label "USB_MCU.D+"
-		(at 205.74 41.91 0)
+		(at 205.74 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11669,6 +12113,7 @@
 	)
 	(label "SWD.SWCLK"
 		(at 171.45 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11679,6 +12124,7 @@
 	)
 	(label "CAN2.TX"
 		(at 171.45 123.19 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11689,6 +12135,7 @@
 	)
 	(label "QSPI1.IO2"
 		(at 100.33 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11699,6 +12146,7 @@
 	)
 	(label "GPS_UART.TX"
 		(at 163.83 161.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11709,6 +12157,7 @@
 	)
 	(label "GPS_SPI.MISO"
 		(at 171.45 100.33 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11718,7 +12167,8 @@
 		(uuid "f0c04890-9824-4c73-a6eb-dc8cc7d874c1")
 	)
 	(label "GPS_UART.TX"
-		(at 191.77 96.52 0)
+		(at 191.77 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11728,7 +12178,8 @@
 		(uuid "f974416d-bb97-47ad-b424-6e66f7b37b90")
 	)
 	(label "CAN1.TX"
-		(at 205.74 66.04 0)
+		(at 205.74 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11739,6 +12190,7 @@
 	)
 	(label "QSPI1.IO1"
 		(at 100.33 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11749,6 +12201,7 @@
 	)
 	(label "GPS_UART.RX"
 		(at 163.83 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11759,7 +12212,8 @@
 	)
 	(hierarchical_label "GPS_GEOFENCE_STAT"
 		(shape output)
-		(at 213.36 133.35 0)
+		(at 213.36 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11770,7 +12224,8 @@
 	)
 	(hierarchical_label "GPS_UART{UART}"
 		(shape bidirectional)
-		(at 209.55 102.87 0)
+		(at 209.55 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11781,7 +12236,8 @@
 	)
 	(hierarchical_label "CAN2{RX TX}"
 		(shape input)
-		(at 224.79 63.5 0)
+		(at 224.79 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11792,7 +12248,8 @@
 	)
 	(hierarchical_label "GPS_RTK_STAT"
 		(shape output)
-		(at 213.36 130.81 0)
+		(at 213.36 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11803,7 +12260,8 @@
 	)
 	(hierarchical_label "USB_MCU{USB}"
 		(shape input)
-		(at 224.79 50.8 0)
+		(at 224.79 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11814,7 +12272,8 @@
 	)
 	(hierarchical_label "IMU_NRESET"
 		(shape input)
-		(at 212.09 157.48 0)
+		(at 217.17 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11825,7 +12284,8 @@
 	)
 	(hierarchical_label "GPS_EXINTERUPT"
 		(shape output)
-		(at 213.36 135.89 0)
+		(at 213.36 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11836,7 +12296,8 @@
 	)
 	(hierarchical_label "GPS_NRESET"
 		(shape input)
-		(at 213.36 125.73 0)
+		(at 213.36 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11847,7 +12308,8 @@
 	)
 	(hierarchical_label "SWD{SWD}"
 		(shape input)
-		(at 224.79 90.17 0)
+		(at 224.79 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11858,7 +12320,8 @@
 	)
 	(hierarchical_label "GPS_SPI{SPI}"
 		(shape bidirectional)
-		(at 210.82 118.11 0)
+		(at 210.82 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11869,7 +12332,8 @@
 	)
 	(hierarchical_label "QSPI1{QSPI}"
 		(shape bidirectional)
-		(at 224.79 38.1 0)
+		(at 224.79 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11880,7 +12344,8 @@
 	)
 	(hierarchical_label "IMU_EXINTERUPT"
 		(shape input)
-		(at 212.09 160.02 0)
+		(at 217.17 157.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11891,7 +12356,8 @@
 	)
 	(hierarchical_label "IMU_I2C{I2C}"
 		(shape bidirectional)
-		(at 212.09 154.94 0)
+		(at 217.17 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11902,7 +12368,8 @@
 	)
 	(hierarchical_label "GPS_MODE_SELECT"
 		(shape input)
-		(at 213.36 128.27 0)
+		(at 213.36 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11913,7 +12380,8 @@
 	)
 	(hierarchical_label "CAN1{RX TX}"
 		(shape input)
-		(at 224.79 74.93 0)
+		(at 224.79 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16079,6 +16547,228 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,4.7kΩ")
+		(at 204.47 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68b3ea80-96c2-493c-afc4-a6bd45e52dd2")
+		(property "Reference" "R427"
+			(at 198.12 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 204.47 138.43 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 202.692 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "5393613"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "4.7kΩ"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fdbd17f3-36f2-4666-b7a3-465c87edd7fc")
+		)
+		(pin "1"
+			(uuid "bb6f3726-f944-4771-8e2c-25eb793963c6")
+		)
+		(instances
+			(project "nav-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
+					(reference "R427")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 20.32 187.96 0)
 		(unit 1)
@@ -18051,6 +18741,71 @@
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
 					(reference "R409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 204.47 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3e3f92a-2cdd-44ab-a7e8-6368066fe493")
+		(property "Reference" "#PWR0462"
+			(at 204.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 201.168 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 204.47 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37fc1707-4627-4ffd-921c-79f17c631b47")
+		)
+		(instances
+			(project "nav-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
+					(reference "#PWR0462")
 					(unit 1)
 				)
 			)
@@ -20870,6 +21625,228 @@
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
 					(reference "#PWR0403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,4.7kΩ")
+		(at 209.55 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4766660-805a-4c6a-a5c7-6dafb70af993")
+		(property "Reference" "R426"
+			(at 210.566 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 209.55 138.43 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 207.772 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "5393613"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "4.7kΩ"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67b96244-96a8-4efe-983b-e7bc598a7fca")
+		)
+		(pin "1"
+			(uuid "bd365ca6-2828-43b7-8162-515f3a953dcb")
+		)
+		(instances
+			(project ""
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
+					(reference "R426")
 					(unit 1)
 				)
 			)

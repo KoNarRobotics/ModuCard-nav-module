@@ -7,7 +7,7 @@
 	(title_block
 		(title "ModuCard nav module")
 		(date "2025-02-18")
-		(rev "1.0.0")
+		(rev "1.0")
 		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
 		(comment 2 "Project author: Patryk Dudziński")
@@ -3197,6 +3197,7 @@
 	)
 	(label "USBIN1.D-"
 		(at 166.37 92.71 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3208,6 +3209,7 @@
 	)
 	(label "USB_MCU.D+"
 		(at 71.12 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3218,6 +3220,7 @@
 	)
 	(label "USBIN1.D+"
 		(at 166.37 90.17 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3229,6 +3232,7 @@
 	)
 	(label "USB_MCU_R.D+"
 		(at 102.87 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3239,6 +3243,7 @@
 	)
 	(label "USB_GPS_.D+"
 		(at 102.87 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3249,6 +3254,7 @@
 	)
 	(label "USB_MCU_R.D-"
 		(at 102.87 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3259,6 +3265,7 @@
 	)
 	(label "USB_MCU.D-"
 		(at 71.12 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3269,6 +3276,7 @@
 	)
 	(label "USBOUT1.D-"
 		(at 82.55 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3280,6 +3288,7 @@
 	)
 	(label "USBOUT1_R.D+"
 		(at 116.84 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3291,6 +3300,7 @@
 	)
 	(label "USBOUT1.D+"
 		(at 82.55 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3302,6 +3312,7 @@
 	)
 	(label "USB_GPS.D+"
 		(at 72.39 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3312,6 +3323,7 @@
 	)
 	(label "USBOUT1_R.D-"
 		(at 116.84 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3323,6 +3335,7 @@
 	)
 	(label "USB_GPS_.D-"
 		(at 102.87 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3333,6 +3346,7 @@
 	)
 	(label "USB_GPS.D-"
 		(at 72.39 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3344,6 +3358,7 @@
 	(hierarchical_label "USBIN1{USB}"
 		(shape input)
 		(at 175.26 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3355,6 +3370,7 @@
 	(hierarchical_label "USBOUT1{USB}"
 		(shape input)
 		(at 53.34 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3366,6 +3382,7 @@
 	(hierarchical_label "USB_MCU{USB}"
 		(shape input)
 		(at 53.34 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3377,6 +3394,7 @@
 	(hierarchical_label "USB_GPS{USB}"
 		(shape input)
 		(at 53.34 85.09 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

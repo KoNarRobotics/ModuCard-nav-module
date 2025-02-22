@@ -28,29 +28,29 @@ jobs:
         run: |
           # Find the .pro project file
           project_file=$(find . -type f -name "*.kicad_pro" | head -n 1)
-      
+
           if [ -z "$project_file" ]; then
             echo "No project file found!"
             exit 1
           fi
-      
+
           # Extract the project name from the .pro file (remove the extension)
           base_name=$(basename "$project_file" .kicad_pro)
-      
+
           # Find the corresponding schematic and PCB files based on the project name
           schematic_file="./${base_name}.kicad_sch"
           pcb_file="./${base_name}.kicad_pcb"
-          
+
           if [ ! -f "$schematic_file" ]; then
             echo "Schematic file $schematic_file does not exist!"
             exit 1
           fi
-      
+
           if [ ! -f "$pcb_file" ]; then
             echo "PCB file $pcb_file does not exist!"
             exit 1
           fi
-      
+
           echo "Found project file: $project_file"
           echo "Found schematic file: $schematic_file"
           echo "Found PCB file: $pcb_file"
@@ -70,16 +70,25 @@ jobs:
         run: |
           # Ensure the 'doc' directory exists
           mkdir -p doc
-          
+
           # Generate the schematic PDF with the project name dynamically inserted
           kicad-cli sch export pdf --output "doc/${{ env.base_name }}-schematic.pdf" ${{ env.schematic_file }}
-      
+
           # Check if the PDF was generated successfully
           if [ ! -f "doc/${{ env.base_name }}-schematic.pdf" ]; then
             echo "Error: schematic PDF was not generated."
             exit 1
           fi
           echo "Schematic PDF generated successfully."
+
+      - name: Get short commit SHA
+        id: get_sha
+        run: echo "short_sha=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
+      - name: Replace BRD SHA placeholder in PCB file
+        run: |
+          sed -i "s/BRD SHA: %%%%%%%%/BRD SHA: ${{ env.short_sha }}/g" "${{ env.pcb_file }}"
+          echo "Updated PCB file with commit SHA: ${{ env.short_sha }}"
 
       - name: Generate Gerber files
         run: |
@@ -114,7 +123,7 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-      
+
       - name: Commit and push the generated PDF and Gerber files
         run: |
           # Add the schematic PDF
@@ -130,15 +139,15 @@ jobs:
             [ -e "$file" ] && git add "$file"
           done
           git add fab/*.drl
-          
+
           # Check if there are changes to commit
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          
+
           # Commit if the files were added
           git commit -m "Add generated schematic PDF and Gerber files"
-          
+
           # Push the commit
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}

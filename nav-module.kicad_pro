@@ -59,6 +59,13 @@
         }
       ],
       "drc_exclusions": [
+        "clearance|65430000|66675002|e69e5171-4d37-4f50-9a18-8a432fb8aff9|bd1191b9-042d-405f-9e86-40dbd4bd1e55",
+        "clearance|65670000|63145002|d9dc59cd-f2a0-4d37-add4-2134f7a206c9|1cdcc340-38f8-4425-af89-bfdffb00d216",
+        "clearance|66530000|66675002|2183a252-8c7c-4498-947d-d3bf9f9f9b44|e69e5171-4d37-4f50-9a18-8a432fb8aff9",
+        "clearance|68400000|61125002|30b9a337-3569-4d1f-87a6-2a0410792e0a|d7b57cff-6e15-41d9-af59-3cfc060a7d3e",
+        "clearance|70930000|66675002|3925f606-7f37-4963-9dcb-78c34e151db7|2dce0662-9b99-432d-b069-587563c032e0",
+        "clearance|71147500|61982501|4835ad51-0530-4331-a784-758b3d53ca80|63904463-4ae9-45bf-9f55-5b103fc72f01",
+        "clearance|72030000|66675002|15c5d4f9-091f-4016-8f93-6be3d80928b3|3925f606-7f37-4963-9dcb-78c34e151db7",
         "invalid_outline|75650000|51515001|5fe78a8e-a74d-45bd-b486-488b6e3c21ca|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -615,7 +622,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 399,
+    "annotate_start_num": 1199,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
