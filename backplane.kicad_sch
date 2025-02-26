@@ -5279,7 +5279,6 @@
 	)
 	(label "GPIOL3"
 		(at 53.34 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5290,7 +5289,6 @@
 	)
 	(label "GPIOR3"
 		(at 153.67 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5301,7 +5299,6 @@
 	)
 	(label "GPIOL4"
 		(at 53.34 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5312,7 +5309,6 @@
 	)
 	(label "BACKPLANE.D-"
 		(at 215.9 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5324,7 +5320,6 @@
 	)
 	(label "GPIOR11"
 		(at 153.67 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5335,7 +5330,6 @@
 	)
 	(label "CAN2.-"
 		(at 52.07 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5346,7 +5340,6 @@
 	)
 	(label "GPIOL15"
 		(at 53.34 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5357,7 +5350,6 @@
 	)
 	(label "GPIOR8"
 		(at 153.67 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5368,7 +5360,6 @@
 	)
 	(label "CAN1.+"
 		(at 248.92 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5379,7 +5370,6 @@
 	)
 	(label "GPIOL2"
 		(at 53.34 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5390,7 +5380,6 @@
 	)
 	(label "GPIOC10"
 		(at 53.34 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5401,7 +5390,6 @@
 	)
 	(label "CAN2.+"
 		(at 248.92 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5412,7 +5400,6 @@
 	)
 	(label "GPIOR13"
 		(at 153.67 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5423,7 +5410,6 @@
 	)
 	(label "GPIOL14"
 		(at 53.34 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5434,7 +5420,6 @@
 	)
 	(label "GPIOC6"
 		(at 53.34 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5445,7 +5430,6 @@
 	)
 	(label "GPIOR9"
 		(at 153.67 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5456,7 +5440,6 @@
 	)
 	(label "GPIOR2"
 		(at 153.67 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5467,7 +5450,6 @@
 	)
 	(label "BACKPLANE.D+"
 		(at 53.34 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5479,7 +5461,6 @@
 	)
 	(label "GPIOR6"
 		(at 153.67 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5490,7 +5471,6 @@
 	)
 	(label "GPIOL9"
 		(at 53.34 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5501,7 +5481,6 @@
 	)
 	(label "GPIOC14"
 		(at 53.34 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5512,7 +5491,6 @@
 	)
 	(label "CAN1.-"
 		(at 248.92 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5523,7 +5501,6 @@
 	)
 	(label "CAN2.-"
 		(at 53.34 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5535,7 +5512,6 @@
 	)
 	(label "GPIOL5"
 		(at 53.34 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5546,7 +5522,6 @@
 	)
 	(label "GPIOC3"
 		(at 53.34 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5557,7 +5532,6 @@
 	)
 	(label "GPIOC1"
 		(at 53.34 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5568,7 +5542,6 @@
 	)
 	(label "GPIOC15"
 		(at 53.34 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5579,7 +5552,6 @@
 	)
 	(label "GPIOC2"
 		(at 53.34 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5590,7 +5562,6 @@
 	)
 	(label "GPIOR0"
 		(at 153.67 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5602,7 +5573,6 @@
 	)
 	(label "CAN1.-"
 		(at 52.07 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5613,7 +5583,6 @@
 	)
 	(label "GPIOL10"
 		(at 53.34 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5624,7 +5593,6 @@
 	)
 	(label "GPIOR10"
 		(at 153.67 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5635,7 +5603,6 @@
 	)
 	(label "GPIOC13"
 		(at 53.34 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5646,7 +5613,6 @@
 	)
 	(label "GPIOL13"
 		(at 53.34 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5657,7 +5623,6 @@
 	)
 	(label "GPIOL7"
 		(at 53.34 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5668,7 +5633,6 @@
 	)
 	(label "GPIOC8"
 		(at 53.34 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5679,7 +5643,6 @@
 	)
 	(label "GPIOC0"
 		(at 53.34 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5690,7 +5653,6 @@
 	)
 	(label "CAN1.+"
 		(at 160.02 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5701,7 +5663,6 @@
 	)
 	(label "GPIOL12"
 		(at 53.34 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5712,7 +5673,6 @@
 	)
 	(label "CAN2.+"
 		(at 52.07 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5723,7 +5683,6 @@
 	)
 	(label "GPIOR15"
 		(at 153.67 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5734,7 +5693,6 @@
 	)
 	(label "GPIOR4"
 		(at 153.67 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5745,7 +5703,6 @@
 	)
 	(label "CAN2.-"
 		(at 248.92 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5756,7 +5713,6 @@
 	)
 	(label "GPIOC11"
 		(at 53.34 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5767,7 +5723,6 @@
 	)
 	(label "GPIOL8"
 		(at 53.34 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5778,7 +5733,6 @@
 	)
 	(label "GPIOL6"
 		(at 53.34 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5789,7 +5743,6 @@
 	)
 	(label "CAN1.+"
 		(at 52.07 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5800,7 +5753,6 @@
 	)
 	(label "CAN2.+"
 		(at 160.02 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5811,7 +5763,6 @@
 	)
 	(label "GPIOC12"
 		(at 53.34 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5822,7 +5773,6 @@
 	)
 	(label "GPIOC4"
 		(at 53.34 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5833,7 +5783,6 @@
 	)
 	(label "GPIOR5"
 		(at 153.67 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5844,7 +5793,6 @@
 	)
 	(label "BACKPLANE.D+"
 		(at 215.9 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5856,7 +5804,6 @@
 	)
 	(label "GPIOC5"
 		(at 53.34 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5867,7 +5814,6 @@
 	)
 	(label "GPIOC7"
 		(at 53.34 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5878,7 +5824,6 @@
 	)
 	(label "GPIOR12"
 		(at 153.67 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5889,7 +5834,6 @@
 	)
 	(label "CAN1.+"
 		(at 53.34 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5901,7 +5845,6 @@
 	)
 	(label "BACKPLANE.D-"
 		(at 160.02 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5913,7 +5856,6 @@
 	)
 	(label "GPIOR7"
 		(at 153.67 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5924,7 +5866,6 @@
 	)
 	(label "CAN1.-"
 		(at 53.34 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5936,7 +5877,6 @@
 	)
 	(label "GPIOL1"
 		(at 53.34 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5947,7 +5887,6 @@
 	)
 	(label "CAN1.-"
 		(at 160.02 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5958,7 +5897,6 @@
 	)
 	(label "CAN2.+"
 		(at 53.34 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5970,7 +5908,6 @@
 	)
 	(label "GPIOL11"
 		(at 53.34 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5981,7 +5918,6 @@
 	)
 	(label "GPIOC9"
 		(at 53.34 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5992,7 +5928,6 @@
 	)
 	(label "GPIOR14"
 		(at 153.67 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6003,7 +5938,6 @@
 	)
 	(label "GPIOR1"
 		(at 153.67 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6014,7 +5948,6 @@
 	)
 	(label "CAN2.-"
 		(at 160.02 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6025,7 +5958,6 @@
 	)
 	(label "GPIOL0"
 		(at 53.34 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6037,7 +5969,6 @@
 	(hierarchical_label "CAN2{CAN}"
 		(shape bidirectional)
 		(at 267.97 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6049,7 +5980,6 @@
 	(hierarchical_label "GPIOC[0..15]"
 		(shape input)
 		(at 35.56 189.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6061,7 +5991,6 @@
 	(hierarchical_label "GPIOR[0..15]"
 		(shape input)
 		(at 177.8 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6073,7 +6002,6 @@
 	(hierarchical_label "BACKPLANE{USB}"
 		(shape output)
 		(at 222.25 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6085,7 +6013,6 @@
 	(hierarchical_label "CAN1{CAN}"
 		(shape bidirectional)
 		(at 267.97 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6097,7 +6024,6 @@
 	(hierarchical_label "GPIOL[0..15]"
 		(shape input)
 		(at 35.56 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

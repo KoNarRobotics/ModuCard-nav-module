@@ -3517,7 +3517,6 @@
 	)
 	(label "CC1"
 		(at 93.98 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3528,7 +3527,6 @@
 	)
 	(label "BACKPLANE.D+"
 		(at 153.67 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3540,7 +3538,6 @@
 	)
 	(label "EXTUSB.D-"
 		(at 214.63 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3552,7 +3549,6 @@
 	)
 	(label "USB2S.D-"
 		(at 162.56 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3564,7 +3560,6 @@
 	)
 	(label "BACKPLANE.D-"
 		(at 153.67 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3576,7 +3571,6 @@
 	)
 	(label "EXTUSB.D+"
 		(at 214.63 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3588,7 +3582,6 @@
 	)
 	(label "CC2"
 		(at 93.98 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3599,7 +3592,6 @@
 	)
 	(label "VBUS_IN"
 		(at 91.44 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3610,7 +3602,6 @@
 	)
 	(label "USB2S.D+"
 		(at 162.56 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3622,7 +3613,6 @@
 	)
 	(label "VBUS_IN"
 		(at 139.7 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3634,7 +3624,6 @@
 	(hierarchical_label "EXTUSB{USB}"
 		(shape output)
 		(at 223.52 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3646,7 +3635,6 @@
 	(hierarchical_label "BACKPLANE{USB}"
 		(shape input)
 		(at 146.05 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

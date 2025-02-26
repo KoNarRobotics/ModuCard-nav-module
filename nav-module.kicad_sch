@@ -16,6 +16,12 @@
 	(bus_alias "CAN"
 		(members "+" "-")
 	)
+	(junction
+		(at 215.9 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab04aca6-5675-4e64-837b-c7872bdabdc6")
+	)
 	(no_connect
 		(at 81.28 82.55)
 		(uuid "225d1b4d-20a1-48d7-98fe-8709d91fa2b8")
@@ -110,6 +116,16 @@
 	)
 	(bus
 		(pts
+			(xy 215.9 87.63) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377b5ae7-0ae6-43b5-9be0-6a510111b543")
+	)
+	(bus
+		(pts
 			(xy 123.19 55.88) (xy 116.84 55.88)
 		)
 		(stroke
@@ -127,16 +143,6 @@
 			(type default)
 		)
 		(uuid "42069d11-2d8b-4c0c-a1bb-3e4cb654db23")
-	)
-	(bus
-		(pts
-			(xy 205.74 87.63) (xy 226.06 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5193aefc-1fcf-41b8-9265-8df1704745b4")
 	)
 	(wire
 		(pts
@@ -167,6 +173,36 @@
 			(type default)
 		)
 		(uuid "5d332e05-a24c-4ca5-8610-527b02c1d468")
+	)
+	(bus
+		(pts
+			(xy 205.74 87.63) (xy 215.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8374a3-f902-4d35-896d-c0038880cded")
+	)
+	(bus
+		(pts
+			(xy 215.9 87.63) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74cf7ef5-6187-401c-bfa1-264e77efc2c6")
+	)
+	(bus
+		(pts
+			(xy 215.9 114.3) (xy 226.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1486ef-43e3-4839-acc7-e97a4d501263")
 	)
 	(bus
 		(pts
@@ -489,6 +525,54 @@
 			(project "nav-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 110.49)
+		(size 24.13 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "197b2aa5-6d95-4372-a87a-1c014832c118")
+		(property "Sheetname" "Barometr"
+			(at 226.06 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Barometr.kicad_sch"
+			(at 226.06 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAROMETR_I2C{I2C}" bidirectional
+			(at 226.06 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "237ce7de-6245-451f-8aab-7999af3c9cb4")
+		)
+		(instances
+			(project "nav-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "13")
 				)
 			)
 		)
@@ -864,16 +948,6 @@
 			)
 			(uuid "a31f592d-737a-4b9e-8845-9d86eec36e78")
 		)
-		(pin "IMU_I2C{I2C}" bidirectional
-			(at 205.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3a3226df-2b4c-4352-92de-ea45603f1376")
-		)
 		(pin "IMU_EXINTERUPT" input
 			(at 205.74 92.71 0)
 			(effects
@@ -893,6 +967,16 @@
 				(justify right)
 			)
 			(uuid "c4c2fedb-5ffe-4a1d-90b6-eb6ec5675e2a")
+		)
+		(pin "I2C1{I2C}" bidirectional
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4f5266c-adc5-4383-ac9b-7b292b937ca6")
 		)
 		(instances
 			(project "nav-module"
